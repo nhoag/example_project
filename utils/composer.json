@@ -3,7 +3,8 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/nhoag/drupal_ti"
+      "url": "https://github.com/nhoag/drupal_ti",
+      "no-api": true
     }
   ],
   "require": {
