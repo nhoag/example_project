@@ -115,7 +115,6 @@ mysql:
 
 before_install:
   - composer self-update
-  - mkdir $HOME/.composer
   - cp ./utils/composer.json $HOME/.composer/
   - cd ./tests
   - composer global install
