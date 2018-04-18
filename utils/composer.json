@@ -1,0 +1,12 @@
+{
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/nhoag/drupal_ti"
+    }
+  ],
+  "require": {
+    "lionsad/drupal_ti": "dev-add_phpcs"
+  }
+}

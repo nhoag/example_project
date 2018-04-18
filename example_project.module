@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains example_project.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function example_project_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the example_project module.
+    case 'help.page.example_project':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
