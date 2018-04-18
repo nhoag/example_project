@@ -10,8 +10,9 @@ use Drupal\Core\Routing\RouteMatchInterface;
 /**
  * Implements hook_help().
  */
-function example_project_help($route_name, RouteMatchInterface $route_match) {
-  switch ($route_name) {
+function example_project_help ($route_name, RouteMatchInterface $route_match)
+{
+  switch($route_name) {
     // Main module help for the example_project module.
     case 'help.page.example_project':
       $output = '';
@@ -22,3 +23,7 @@ function example_project_help($route_name, RouteMatchInterface $route_match) {
     default:
   }
 }
+
+
+
+
